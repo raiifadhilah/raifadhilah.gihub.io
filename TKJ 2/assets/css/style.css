@@ -1,0 +1,63 @@
+/* HOME */
+.cover {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  height: 100vh;
+}
+.cover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #acacac;
+  opacity: 0.3;
+}
+.caption {
+  text-align: center;
+  text-shadow: 2px 2px 4px #5e5a5a;
+}
+.caption h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+}
+.caption p {
+  padding-top: 10px;
+  font-size: x-large;
+  font-style: italic;
+}
+/* HOME END */
+/* PROFIL */
+section {
+  background-image: linear-gradient(rgb(236, 236, 236), #b3b3b3);
+}
+.container {
+  padding-top: 25px;
+  text-align: center;
+  display: flex;
+}
+.container a {
+  color: black;
+  text-decoration: none;
+}
+.container a:hover {
+  color: white;
+}
+.siswa {
+  display: block;
+  /* text-align: center; */
+}
+.line {
+  border-top: 2px solid;
+  padding: 50px;
+}
+.col-2 {
+  /* padding-top: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
